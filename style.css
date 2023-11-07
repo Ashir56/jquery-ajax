@@ -1,0 +1,66 @@
+#vall 
+{
+    opacity: 0;
+}
+
+body 
+{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,1,2,1) 35%, rgba(5,111,133,1) 100%)
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.posts input{
+    width: 400px;
+    padding: 1rem;
+}
+.posts button{
+    padding: 1rem 2.5rem;
+    background-color: transparent;
+    border: 1px solid #c9c5c5;
+    color: #fff;
+    cursor: pointer;
+}
+.posts button:hover 
+{
+    background-color: #255129;
+    border:  1px solid #255129;;
+}
+.head {
+    max-width: 500px;
+    margin: auto;
+}
+section .display-post {
+    /* max-width: 400px; */
+    color: #fff;
+    /* margin: auto; */
+}
+section .display-post  li {
+    list-style-type: none;
+    margin: 1rem;
+}
+section .display-post  li button
+{
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 1px solid #c9c5c5;
+    color: #fff;
+    cursor: pointer;
+} 
+.edit:hover
+{
+    background-color: #5e5f62;
+    border:  1px solid #5e5f62;;
+}
+ .delete:hover
+{
+    background-color: #800000;
+    border:  1px solid #800000;;
+}
